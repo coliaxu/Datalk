@@ -4,4 +4,6 @@ nav:
     - Home: index.md
     - About: about.md
 
-theme: readthedocs
+theme: 
+  name: 'material'
+
