@@ -1,4 +1,8 @@
 site_name: Datas talk.
+site_url: https://coliaxu.github.io/Datalk
+
+repo_url: https://github.com/coliaxu/Datalk
+
 
 nav:
     - Home: index.md
