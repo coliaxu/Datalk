@@ -3,11 +3,38 @@ site_url: https://coliaxu.github.io/Datalk
 
 repo_url: https://github.com/coliaxu/Datalk
 
+theme:
+    palette:
+        scheme: preference
+    name: material
+    icon:
+        repo: fontawesome/brands/github
+    features:
+        - navigation.instant
+        - search.highlight
+        # - navigation.expand
+        # - navigation.tabs
+    custom_dir: "docs/overrides"
+
+plugins:
+    - search
+    - mkdocstrings
+    - git-revision-date
+    - mkdocs-jupyter:
+          include_source: True
+          # execute: True
+
+markdown_extensions:
+    - attr_list
+    - pymdownx.superfences
+    - pymdownx.highlight:
+          linenums: true
+    - toc:
+          permalink: true
 
 nav:
     - Home: index.md
     - About: about.md
-
-theme: 
-  name: 'material'
+    - Notebook: 
+        - notebooks/test.ipynb
 

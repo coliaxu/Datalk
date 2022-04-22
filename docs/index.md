@@ -1,21 +1,16 @@
-# Welcome to Datas talk.
+# Welcome to Data talk
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-## Background
+## what kinds of data 
+* 
+*  
+*  
+## where are the data
 * 
 * 
 * 
 * 
-### origin
+## how to process these data
 * 
 * 
 * 
-* 
-### development
-* 
-* 
-* 
-* 
-
-## Finally
+## how to visualize these data
