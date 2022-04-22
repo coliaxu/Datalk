@@ -36,5 +36,5 @@ nav:
     - Home: index.md
     - About: about.md
     - Notebook: 
-        - notebooks/test.ipynb
+        - Notebooks/test.ipynb
 
